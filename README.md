@@ -2,7 +2,7 @@
 A Python execution of a moving average backtester
 
 ## Overview
-This project allows testing rule-based trading signals against historical price series. The strategy implements a **Dual Moving Average Crossover**:
+This project tests rule-based trading signals against historical price series. The strategy implements a **Dual Moving Average Crossover**:
 * **Long Signal:** Fast SMA crosses above the Slow SMA (bullish momentum)
 * **Short Signal:** Fast SMA crosses below the Slow SMA (bearish momentum)
 
