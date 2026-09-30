@@ -1,4 +1,4 @@
-# Algorithmic-Backtester
+# Algorithmic Backtester
 A Python execution of a moving average backtester
 
 ## Overview
@@ -38,13 +38,19 @@ $$MDD = \max_{\tau \le t} \left( \frac{P_{peak}(\tau) - P(t)}{P_{peak}(\tau)} \r
 ---
 
 ## Getting Started
-```bash
-pip install numpy pandas
-```
+
 ### Prerequisites
 Ensure you have Python and Jupyter installed. You can install all dependencies via pip:
 
+```bash
+pip install numpy pandas
+```
+
 ### Usage
-1. Download the .py file from the repository
-2. Download OHLCV data (I used Yahoo Finance for my testing)
-3. Open the .py file, adjusting all parameters, and run the file
+1. Clone the repository:
+```bash
+git clone https://github.com/matthewhdanter/Algorithmic-Backtester.git
+cd Algorithmic-Backtester
+```
+2. Download OHLCV data in CSV format (i.e., from Yahoo Finance)
+3. Open the main script, adjust parameters, and run the backtester
